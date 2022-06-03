@@ -10,6 +10,10 @@ date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---
 
+### TODO: this page is just a proposal for rep handling in partitura, update and move!
+
+
+
 ## Repetition Handling
 
 ### Some background

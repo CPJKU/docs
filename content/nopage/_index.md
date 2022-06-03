@@ -8,6 +8,6 @@ focal_point: "Center"
 toc: false
 ---
 
-###  :smiling_face_with_tear:  We are working hard on fixing the issue.
+###  :smiling_face_with_tear:  We are working hard on building the documentation.
 
 

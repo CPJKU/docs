@@ -1,19 +1,23 @@
 ---
 # Title, summary, and page position.
-linktitle: Usage
+linktitle: Usage with partitura
 summary: Learn how to use the match file format.
 weight: 2
 
 # Page metadata.
-title: Partitura
+title: Usage with partitura
 date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---
+ 
+
+### TODO: this page is just an introduction to partitura, reformulate for match!
+
 
 Introduction
 ============
 
-The principal aim of the `partitura` package is to handle richly structured
+The `partitura` package handles richly structured
 musical information as conveyed by modern staff music notation. It provides
 a much wider range of possibilities to deal with music than the more
 reductive (but very common) pianoroll-oriented approach inspired by the

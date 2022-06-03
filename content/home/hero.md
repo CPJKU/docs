@@ -15,12 +15,9 @@ cta:
   icon_pack: fab
   icon: github
 cta_alt:
-  url: match/
-  label: View Documentation
+  url: tools/
+  label: Tools, Tutorials, and Datasets
 ---
 
-This is the official site for the CPJKU Ecosystem Utils Documentation. 
-
-
-
+This is the official site for the CPJKU Music Processing Ecosystem Documentation. 
 

@@ -4,19 +4,16 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /
-    weight: 10
   - name: Match
     url: match/
     weight: 20
   - name: Partitura
     url : https://partitura.readthedocs.io/en/latest/
     weight: 30
-  - name: MatchMaker
+  - name: Struttura
     url: nopage/
     weight: 40
-  - name: Struttura
+  - name: MatchMaker
     url: nopage/
     weight: 50
   - name: BasisMixer
