@@ -1,0 +1,27 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Match
+    url: match/
+    weight: 20
+  - name: Partitura
+    url : https://partitura.readthedocs.io/en/latest/
+    weight: 30
+  - name: MatchMaker
+    url: nopage/
+    weight: 40
+  - name: Struttura
+    url: nopage/
+    weight: 50
+  - name: BasisMixer
+    url: nopage/
+    weight: 60
+  - name: Accompanion
+    url: nopage/
+    weight: 70
