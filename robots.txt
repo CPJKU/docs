@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://sildater.github.io/docs/sitemap.xml
