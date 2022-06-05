@@ -8,7 +8,7 @@ main:
     url: match/
     weight: 20
   - name: Partitura
-    url : https://partitura.readthedocs.io/en/latest/
+    url : partitura/
     weight: 30
   - name: Struttura
     url: nopage/

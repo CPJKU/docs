@@ -1,8 +1,9 @@
 ---
 # Title, summary, and page position.
-linktitle: Getting Started
+linktitle: Match Handling
 summary: Learn how to use the match file format.
-weight: 2
+weight: 3
+
 # Page metadata.
 title: Get Started with Match & Partitura
 type: book  # Do not modify.

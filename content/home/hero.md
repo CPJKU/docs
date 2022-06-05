@@ -16,7 +16,7 @@ cta:
   icon: github
 cta_alt:
   url: tools/
-  label: Tools, Tutorials, and Datasets
+  label: Links to Tools, Tutorials, and Datasets
 ---
 
 This is the official site for the CPJKU Music Processing Ecosystem Documentation. 

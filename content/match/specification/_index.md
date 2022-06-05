@@ -1,12 +1,11 @@
 ---
 # Title, summary, and page position.
-linktitle: Format Specification
+linktitle: Specification
 summary: specification of the match file format.
-weight: 3
+weight: 1
 
 # Page metadata.
 title:  Format Specification
-date: "2018-09-09T00:00:00Z"
 type: book  # Do not modify.
 ---
 

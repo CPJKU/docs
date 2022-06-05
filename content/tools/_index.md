@@ -1,7 +1,11 @@
 ---
-# title: List of Tools
-# type: book  # Do not modify.
-# toc: false
+title: "Links"
+draft: false
+description: "Links to repositories"
+comments: false
+type: wowchemycms
+focal_point: "Center"
+toc: false
 ---
 
 Repositories in the CPJKU Symbolic Music Processing Ecosystem:
