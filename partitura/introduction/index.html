@@ -20,11 +20,11 @@ and <code>GuitarPro</code>. This requires a working installation of MuseScore on
 computer.
 <code>MEI</code> format is currently not supported, but support is planned for a future release.</p><p>Score-performance alignments can be read from different file types by
 <code>partitura</code>. Firstly it supports reading from the <code>Matchfile</code> format used by
-the publicly available</p><p>[Vienna4x22 piano corpus research dataset]: <a href=https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html>https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html</a> &ldquo;Vienna4x22&rdquo; .Secondly there is read support for <code>Match</code> and <code>Corresp</code> files produced by
+the publicly available</p><p><a href=https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html title=Vienna4x22 target=_blank rel=noopener>Vienna4x22 piano corpus research dataset</a>. Secondly there is read support for <code>Match</code> and <code>Corresp</code> files produced by
 Nakamura&rsquo;s "
-[music alignment software]: <a href=https://midialignment.github.io/demo.html>https://midialignment.github.io/demo.html</a> &ldquo;Nakamura&rdquo;</p><h3 id=conceptual-overview>Conceptual Overview</h3><p>This section offers some conceptual and design considerations that may be
+<a href=https://midialignment.github.io/demo.html title=Nakamura target=_blank rel=noopener>music alignment software</a></p><h3 id=conceptual-overview>Conceptual Overview</h3><p>This section offers some conceptual and design considerations that may be
 helpful when working with the package.</p><h4 id=representing-score-information>Representing score information</h4><p>The package defines a musical ontology to describe musical
-scores that roughly follows the elements defined by the</p><p>More specifically, the elements of a musical score are represented as a
+scores that roughly follows the elements defined by the</p><p><a href=http://usermanuals.musicxml.com/MusicXML/MusicXML.htm title="MusicXML specification" target=_blank rel=noopener>MusicXML specification</a></p><p>More specifically, the elements of a musical score are represented as a
 collection of instances of classes like <code>Note</code>, <code>Measure</code>, <code>Slur</code>, and
 <code>Rest</code>. These instances are attached to an instance of class <code>Part</code>, which
 corresponds to the role of an instrument in a musical score. A part may
