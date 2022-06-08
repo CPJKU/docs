@@ -3,6 +3,7 @@
 linktitle: Repetition Handling
 summary: Learn how Partitura and the Match Format handles repetitions during the performance's score unfolding.
 weight: 2
+date: "2022-06-08T00:00:00Z"
 
 # Page metadata.
 title: Repetition Handling

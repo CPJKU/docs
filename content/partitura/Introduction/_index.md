@@ -6,6 +6,7 @@ weight: 1
 # Page metadata.
 title: 
 type: book  # Do not modify.
+date: "2022-06-08T00:00:00Z"
 ---
 
 This page gives an overview of partitura and some of its most relevant features.

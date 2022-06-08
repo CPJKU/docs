@@ -2,11 +2,14 @@
 # Title, summary, and page position.
 linktitle: Partitura
 summary: Introduction to partitura
-weight: 2
+date: "2022-06-08T00:00:00Z"
+weight: 1
+
 # Page metadata.
 headless: true
 type: book  # Do not modify.
 toc: false
+headless: false
 ---
 
 {{< figure src="partitura_logo.png" height="400" width="400">}}

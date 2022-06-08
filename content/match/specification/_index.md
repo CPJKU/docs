@@ -3,6 +3,7 @@
 linktitle: Specification
 summary: specification of the match file format.
 weight: 1
+date: "2022-06-08T00:00:00Z"
 
 # Page metadata.
 title:  Format Specification

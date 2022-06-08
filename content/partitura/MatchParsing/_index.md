@@ -3,10 +3,12 @@
 linktitle: Match Handling
 summary: Learn how to use the match file format.
 weight: 3
+date: "2022-06-08T00:00:00Z"
 
 # Page metadata.
 title: Get Started with Match & Partitura
 type: book  # Do not modify.
+
 ---
  
 
