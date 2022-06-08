@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 'CPJKU Documentation' # Website name
-baseurl: 'http://sildater.github.io/docs/' # Website URL
+baseurl: 'http://CPJKU.github.io/docs/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
