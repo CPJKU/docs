@@ -7,7 +7,7 @@ weight: 1
 title: 
 type: book  # Do not modify.
 ---
- 
+
 This page gives an overview of partitura and some of its most relevant features.
 
 ### Introduction
@@ -50,9 +50,9 @@ Score-performance alignments can be read from different file types by
 `partitura`.  Firstly it supports reading from the `Matchfile` format used by
 the publicly available 
 
-[Vienna4x22 piano corpus research dataset]: https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html	"Vienna4x22" .Secondly there is read support for `Match` and `Corresp` files produced by
+[Vienna4x22 piano corpus research dataset](https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html "Vienna4x22"). Secondly there is read support for `Match` and `Corresp` files produced by
 Nakamura's  "
-[music alignment software]: https://midialignment.github.io/demo.html	"Nakamura"
+[music alignment software](https://midialignment.github.io/demo.html "Nakamura")
 
 
 ### Conceptual Overview
@@ -66,7 +66,7 @@ helpful when working with the package.
 The package defines a musical ontology to describe musical
 scores that roughly follows the elements defined by the 
 
-[MusicXML specification]: http://usermanuals.musicxml.com/MusicXML/MusicXML.htm
+[MusicXML specification](http://usermanuals.musicxml.com/MusicXML/MusicXML.htm "MusicXML specification")
 
 More specifically, the elements of a musical score are represented as a
 collection of instances of classes like `Note`, `Measure`, `Slur`, and

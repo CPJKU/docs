@@ -4,10 +4,14 @@ linktitle: Partitura
 summary: Introduction to partitura
 weight: 2
 # Page metadata.
-title: Welcome to Partitura!
+headless: true
 type: book  # Do not modify.
 toc: false
 ---
+
+{{< figure src="partitura_logo.png" height="400" width="400">}}
+
+# Welcome to partitura
 
 Quick code links:
 

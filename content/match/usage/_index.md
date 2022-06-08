@@ -21,4 +21,4 @@ Score-performance alignments can be read from different file types by
 `partitura`.  Firstly it supports reading from the `Matchfile` format used by
 the publicly available 
 
-[Vienna4x22 piano corpus research dataset]: https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html	"Vienna4x22" .
+[Vienna4x22 piano corpus research dataset](https://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/index.html	"Vienna4x22").
