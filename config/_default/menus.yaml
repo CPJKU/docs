@@ -10,4 +10,10 @@ main:
   - name: Partitura
     url : partitura/
     weight: 30
+  - name: BasisMixer
+    url : basismixer/
+    weight: 40
+  - name: ACCompanion
+    url : accompanion/
+    weight: 50
 
