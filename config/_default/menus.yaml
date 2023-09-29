@@ -10,15 +10,4 @@ main:
   - name: Partitura
     url : partitura/
     weight: 30
-  - name: Struttura
-    url: nopage/
-    weight: 40
-  - name: MatchMaker
-    url: nopage/
-    weight: 50
-  - name: BasisMixer
-    url: nopage/
-    weight: 60
-  - name: Accompanion
-    url: nopage/
-    weight: 70
+
