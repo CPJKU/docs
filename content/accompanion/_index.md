@@ -1,8 +1,8 @@
 ---
 # Title, summary, and page position.
-linktitle: BasisMixer
-summary: Introduction to BasisMixer
-date: "2022-06-08T00:00:00Z"
+linktitle: ACCompanion
+summary: Introduction to ACCompanion
+date: "2023-09-29T00:00:00Z"
 weight: 1
 
 # Page metadata.
@@ -12,8 +12,8 @@ toc: false
 ---
 
 
-#### Welcome to the BasisMixer
+#### Welcome to the ACCompanion
 
-#### Find the full description of the system [here](http://www.carloscancinochacon.com/documents/thesis/Cancino-JKU-2018.pdf).
-#### Find the code on [github](https://github.com/CPJKU/basismixer). 
-#### Get started with this [tutorial](https://github.com/CPJKU/basismixer-notebooks). 
+#### Find the description of the system [here](https://arxiv.org/abs/2304.12939v2).
+#### Find the code on [github](https://github.com/CPJKU/accompanion). 
+#### Watch the ACCompanion in action on [youtube](https://www.youtube.com/playlist?list=PLPUWmNCGflVNxPppflMNFMzWedlOhZePO). 

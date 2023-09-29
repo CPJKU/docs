@@ -1,8 +1,8 @@
 ---
 # Title, summary, and page position.
 linktitle: Partitura
-summary: Introduction to partitura
-date: "2022-06-08T00:00:00Z"
+summary: Introduction to Partitura
+date: "2023-09-29T00:00:00Z"
 weight: 1
 
 # Page metadata.
@@ -14,8 +14,6 @@ toc: false
 {{< figure src="partitura_logo.png" height="400" width="400">}}
 
 #### Welcome to partitura
-
-Documentation, code, and tutorial links:
 
 #### Find the technical documentation on [readthedocs](https://partitura.readthedocs.io/en/latest/).
 #### Download the package from [github](https://github.com/CPJKU/partitura) or from pypi:   ```pip install partitura```.

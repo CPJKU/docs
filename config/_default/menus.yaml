@@ -16,4 +16,11 @@ main:
   - name: ACCompanion
     url : accompanion/
     weight: 50
+  - name: Parangonar
+    url : parangonar/
+    weight: 60
+  - name: Links
+    url : tools/
+    weight: 70
+
 

@@ -1,8 +1,8 @@
 ---
 # Title, summary, and page position.
-linktitle: Partitura
-summary: Introduction to partitura
-date: "2022-06-08T00:00:00Z"
+linktitle: BasisMixer
+summary: Introduction to BasisMixer
+date: "2023-09-29T00:00:00Z"
 weight: 1
 
 # Page metadata.
@@ -11,13 +11,9 @@ type: book  # Do not modify.
 toc: false
 ---
 
-{{< figure src="partitura_logo.png" height="400" width="400">}}
 
-#### Welcome to partitura
+#### Welcome to the BasisMixer
 
-Documentation, code, and tutorial links:
-
-#### Find the technical documentation on [readthedocs](https://partitura.readthedocs.io/en/latest/).
-#### Download the package from [github](https://github.com/CPJKU/partitura) or from pypi:   ```pip install partitura```.
-#### There is a [tutorial](https://github.com/CPJKU/partitura_tutorial) on github with a getting started jupyter notebook.
-
+#### Find the full description of the system [here](http://www.carloscancinochacon.com/documents/thesis/Cancino-JKU-2018.pdf).
+#### Find the code on [github](https://github.com/CPJKU/basismixer). 
+#### Get started with this [tutorial](https://github.com/CPJKU/basismixer-notebooks). 
