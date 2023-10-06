@@ -24,3 +24,4 @@ Repositories in the CPJKU Symbolic Music Processing Ecosystem:
 ## Datasets:
 - [Vienna 4x22](https://github.com/CPJKU/vienna4x22)
 - [(n)ASAP note alignments](https://github.com/CPJKU/asap-dataset)
+- [Batik Dataset](https://github.com/huispaty/batik_plays_mozart)

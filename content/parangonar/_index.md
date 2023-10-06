@@ -12,8 +12,7 @@ toc: false
 ---
 
 
-#### Welcome to Parangonar
+## Welcome to Parangonar!
 
-#### Download the package from [github](https://github.com/sildater/parangonar) or from pypi:   ```pip install parangonar```.
-#### Visualize alignments with [parangonada](https://sildater.github.io/parangonada/). 
-
+## Download the package from [github](https://github.com/sildater/parangonar) or from pypi:   ```pip install parangonar```.
+## Visualize alignments with [parangonada](https://sildater.github.io/parangonada/). 

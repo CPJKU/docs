@@ -1,19 +1,17 @@
 ---
-# Title, summary, and page position.
+draft: false
 linktitle: BasisMixer
 summary: Introduction to BasisMixer
+comments: false
 date: "2023-09-29T00:00:00Z"
-weight: 1
-
-# Page metadata.
-headless: true
-type: book  # Do not modify.
+type: wowchemycms
+focal_point: "Center"
 toc: false
 ---
 
 
-#### Welcome to the BasisMixer
+## Welcome to the BasisMixer!
 
-#### Find the full description of the system [here](http://www.carloscancinochacon.com/documents/thesis/Cancino-JKU-2018.pdf).
-#### Find the code on [github](https://github.com/CPJKU/basismixer). 
-#### Get started with this [tutorial](https://github.com/CPJKU/basismixer-notebooks). 
+## Find the full description of the system [here](http://www.carloscancinochacon.com/documents/thesis/Cancino-JKU-2018.pdf).
+## Find the code on [github](https://github.com/CPJKU/basismixer). 
+## Get started with this [tutorial](https://github.com/CPJKU/basismixer-notebooks). 
