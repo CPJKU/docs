@@ -15,3 +15,4 @@ Use the navigation on the left to:
 - see the Match File Format Specification.
 - find data encoded as match files on github.
 
+Find the [match publication](https://arxiv.org/abs/2206.01104) on arxiv.
