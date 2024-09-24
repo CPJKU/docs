@@ -143,7 +143,7 @@ Possible values:
 | **Beat**                | **integer**           | **integer beat number of note onset (starting at 1)**        |
 | **Offset**              | **integer / integer** | **offset from beat position (in symbolic duration; fraction of whole notes)** |
 | **OnsetInBeats**        | **float**             | **onset position in contiguous beats (beat 0 = start of measure 1, beat unit = time signature denominator)** |
-| **DurationInBeats**     | **float**             | **duration in beats**                                        |
+| **OffsetInBeats**       | **float**             | **offset position in beats**                                        |
 | **ScoreAttributesList** | **[string]**          | **note attributes (“grace”, “appoggiatura”, etc.)**          |
 
 
