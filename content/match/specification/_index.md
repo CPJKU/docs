@@ -64,7 +64,7 @@ A match file consists of three main parts. The first part at the beginning of th
 | ------------------- | --------------------- | ------------------------------------------------------------ |
 | **Measure**         | **integer**           | **measure number (starting at 1, 0 for anacrusis) of the score position** |
 | **Beat**            | **integer**           | **integer beat number (starting at 1) of the score position** |
-| **Offset**          | **Integer / integer** | **offset of the score position****from beat position (in symbolic duration; fraction of whole notes)** |
+| **Offset**          | **Integer / integer** | **offset of the score position from beat position (in symbolic duration; fraction of whole notes)** |
 | **OnsetInBeats**    | **float**             | **score position in contiguous beats (beat 0 = start of measure 1, beat unit = time signature denominator)** |
 | **TimeSigValue**    | **integer / integer** | **Time signature**                                           |
 | **KeySigValue**     |                       | **Key signature**                                            |
@@ -166,7 +166,7 @@ Possible values:
 | **Beat**                | **integer**           | **integer beat number of note onset (starting at 1)**        |
 | **Offset**              | **integer / integer** | **offset from beat position (in symbolic duration; fraction of whole notes)** |
 | **OnsetInBeats**        | **float**             | **onset position in contiguous beats (beat 0 = start of measure 1, beat unit = time signature denominator)** |
-| **DurationInBeats**     | **float**             | **duration in beats**                                        |
+| **OffsetInBeats**       | **float**             | **offset position in beats**                                        |
 | **ScoreAttributesList** | **[string]**          | **note attributes (“grace”, “appoggiatura”, etc.)**          |
 | **ID**                  | **integer**           | **Note identifier**                                          |
 | **MIDIpitch**           | **integer**           | **Pitch 0-127**                                              |
