@@ -102,7 +102,7 @@ Possible values:
 | **Value name**     | **Value type**        | **Description**                                              |
 | ------------------ | --------------------- | ------------------------------------------------------------ |
 | **Measure**        | **integer**           | **measure number (starting at 1, 0 for anacrusis) of the score position** |
-| **Beat**           | **integer**           | **integer beat number (starting at 1) of the score position** |
+| **Beat**           | **integer**           | **integer beat number (starting at 1) of the score position; beat unit = time signature denominator** |
 | **Offset**         | **Integer / integer** | **offset of the score position****from beat position (in symbolic duration; fraction of whole notes)** |
 | **OnsetInBeats**   | **float**             | **score position in contiguous beats (beat 0 = start of measure 1, beat unit = time signature denominator)** |
 | **AnnotationType** | **[string]**          | **Optional: list of types of annotation, e.g. “beat”, “measure”, or “downbeat”** |
@@ -112,7 +112,7 @@ Possible values:
 
 **Notes in the performance:**
 
-`note(ID,MIDIpitch,Onset,Offset,Velocity).`
+`note(ID,MIDIpitch,Onset,Offset,Velocity,Channel,Track).`
 
 
 
@@ -124,6 +124,8 @@ Possible values:
 | **Offset**         | **integer**    | **Time in parts/ticks of the note off message**              |
 | **adjustedOffset** | **integer**    | **deprecated** **Sounding note off when adjusted by sustain pedal information (see pedal lines)** |
 | **Velocity**       | **integer**    | **Note on velocity 0-127**                                   |
+| **Channel**        | **integer**    | **MIDI channel of note 0-15**                                |
+| **Track**          | **integer**    | **MIDI track of note**                                       |
 
 
 
@@ -140,7 +142,7 @@ Possible values:
 | **Modifier**            | **string**            | **pitch modifier in [“”, n, b, #, bb, x]**                   |
 | **Octave**              | **integer**           | **octave number (scientific notation, middle C is in octave 4)** |
 | **Measure**             | **integer**           | **measure number (starting at 1, 0 for anacrusis)**          |
-| **Beat**                | **integer**           | **integer beat number of note onset (starting at 1)**        |
+| **Beat**                | **integer**           | **integer beat number (starting at 1) of the score position; beat unit = time signature denominator**  |
 | **Offset**              | **integer / integer** | **offset from beat position (in symbolic duration; fraction of whole notes)** |
 | **OnsetInBeats**        | **float**             | **onset position in contiguous beats (beat 0 = start of measure 1, beat unit = time signature denominator)** |
 | **OffsetInBeats**       | **float**             | **offset position in beats**                                        |
@@ -152,7 +154,7 @@ Possible values:
 
 `snote( _ , … , _ )-note( _ , … , _ ).`
 
-`snote(Anchor,NoteName,Modifier],Octave,Measure:Beat,Offset,Duration,OnsetInBeats,OffsetInBeats,ScoreAttributesList)-note(ID,MIDIpitch,Onset,Offset,Velocity).`
+`snote(Anchor,NoteName,Modifier],Octave,Measure:Beat,Offset,Duration,OnsetInBeats,OffsetInBeats,ScoreAttributesList)-note(ID,MIDIpitch,Onset,Offset,Velocity,Channel,Track).`
 
 
 
@@ -163,7 +165,7 @@ Possible values:
 | **Modifier**            | **string**            | **pitch modifier in [“”, n, b, #, bb, x]**                   |
 | **Octave**              | **integer**           | **octave number (scientific notation, middle C is in octave 4)** |
 | **Measure**             | **integer**           | **measure number (starting at 1, 0 for anacrusis)**          |
-| **Beat**                | **integer**           | **integer beat number of note onset (starting at 1)**        |
+| **Beat**                | **integer**           | **integer beat number (starting at 1) of the score position; beat unit = time signature denominator**        |
 | **Offset**              | **integer / integer** | **offset from beat position (in symbolic duration; fraction of whole notes)** |
 | **OnsetInBeats**        | **float**             | **onset position in contiguous beats (beat 0 = start of measure 1, beat unit = time signature denominator)** |
 | **OffsetInBeats**       | **float**             | **offset position in beats**                                        |
@@ -174,6 +176,8 @@ Possible values:
 | **Offset**              | **integer**           | **Time in parts/ticks of the note off message**              |
 | **adjustedOffset**      | **integer**           | **deprecated** **Sounding note off when adjusted by sustain pedal information (see pedal lines)** |
 | **Velocity**            | **integer**           | **Note on velocity 0-127**                                   |
+| **Channel**             | **integer**           | **MIDI channel of note 0-15**                                |
+| **Track**               | **integer**           | **MIDI track of note**                                       |
 
 
 
@@ -198,6 +202,7 @@ Performed notes that are not found in the score:
 ## Pedal Lines
 
 Pedal lines represent MIDI cc 64 (sustain pedal) messages in the performance MIDI file.
+Unlike the MIDI cc messages, pedal lines have no associated track and channel number.
 
 
 
